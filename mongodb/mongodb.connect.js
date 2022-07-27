@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 async function connect() {
     try{
-        await mongoose.connect("mongodb+srv://SuperTestUser:SuperTestUser1@nodeapi.jhnnjvp.mongodb.net/?retryWrites=true&w=majority",
+        await mongoose.connect("mongodb+srv://SuperTestUser:MAMAM00@nodeapi.jhnnjvp.mongodb.net/?retryWrites=true&w=majority",
         { useNewUrlParser: true } 
       );
     } catch (err) {
